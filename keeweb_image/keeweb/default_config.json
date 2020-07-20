@@ -1,0 +1,54 @@
+{
+    "settings": {
+		"theme": "fb",
+		"locale": "pl-PL",
+		"expandGroups": true,
+		"listViewWidth": null,
+		"menuViewWidth": null,
+		"tagsViewHeight": null,
+		"autoUpdate": "install",
+		"clipboardSeconds": 0,
+		"autoSave": true,
+		"autoSaveInterval": 1,
+		"rememberKeyFiles": "data",
+		"idleMinutes": 5,
+		"minimizeOnClose": false,
+		"tableView": false,
+		"colorfulIcons": true,
+		"titlebarStyle": "default",
+		"lockOnMinimize": true,
+		"lockOnCopy": false,
+		"lockOnAutoType": false,
+		"lockOnOsLock": false,
+		"helpTipCopyShown": false,
+		"templateHelpShown": false,
+		"skipOpenLocalWarn": false,
+		"hideEmptyFields": false,
+		"skipHttpsWarning": false,
+		"demoOpened": false,
+		"fontSize": 2,
+		"tableViewColumns": null,
+		"generatorPresets": null,
+		"cacheConfigSettings": false,
+		"canOpen": true,
+		"canOpenDemo": false,
+		"canOpenSettings": true,
+		"canCreate": true,
+		"canImportXml": true,
+		"canRemoveLatest": true,
+		"dropbox": false,
+		"webdav": true,
+		"gdrive": false,
+		"onedrive": false
+	},
+	"plugins": [
+		{"url": "https://keeweb.euromah.pl/plugins/translations/pl"}
+	],
+	"files": [
+		{
+			"storage": "webdav", 
+			"name": "euromah",
+			"path": "https://keeweb.euromah.pl/dav/euromah.kdbx"
+		}
+	]
+}
