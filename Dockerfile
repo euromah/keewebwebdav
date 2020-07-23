@@ -1,5 +1,4 @@
 FROM nginx:stable
-MAINTAINER Pokrywkait "przemyslaw.pokrywka@pokrywkait.com"
 
 #install
 RUN apt-get -y update && apt-get -y install openssl wget unzip
@@ -25,5 +24,5 @@ EXPOSE 80
 
 COPY keeweb /usr/share/nginx/html/keeweb
 COPY keeweb.conf /etc/nginx/conf.d/
-RUN mkdir /usr/share/nginx/keeweb
-
+RUN mkdir -p /usr/share/nginx/keeweb/dav && \
+    chown nginx /usr/share/nginx/keeweb/dav

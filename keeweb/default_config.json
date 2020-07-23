@@ -1,7 +1,7 @@
 {
     "settings": {
 		"theme": "fb",
-		"locale": "pl-PL",
+		"locale": "pl",
 		"expandGroups": true,
 		"listViewWidth": null,
 		"menuViewWidth": null,
@@ -38,6 +38,7 @@
 		"canRemoveLatest": true,
 		"dropbox": false,
 		"webdav": true,
+		"webdavSaveMethod": "put",
 		"gdrive": false,
 		"onedrive": false
 	},
